@@ -1,0 +1,5 @@
+id,email,userName,password,firstName,lastName,createdAt,createdBy,modifiedAt,modifiedBy
+89eaa0cd-5ff8-45a3-a3b4-5def03b2cf01,teste@b2rise.com,testeUserB2rise,,Test,User
+89efsda0cd-5ff8-45a3-a3b4-5def03b2cf02,teste@b2rise.com,testeUser2B2rise,,Test2,User
+89eaa0dfsdcd-5ff8-45a3-a3b4-5def03b2cf03,teste@b2rise.com,testeUser3B2rise,,Test3,User
+89easdfa0cd-5ff8-45a3-a3b4-5def03b2cf04,teste@b2rise.com,testeUser4B2rise,,Test4,User
