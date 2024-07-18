@@ -1,24 +1,21 @@
-## Exercício Teórico 
+### Exercício Teórico 
 
 
-1- Explique o conceito de Modelos no desenvolvimento de aplicativos. Por que são importantes? 
+### 1- Explique o conceito de Modelos no desenvolvimento de aplicativos. Por que são importantes? 
 
-No desenvolvimento de aplicativos, um modelo é uma representação abstrata de uma entidade ou conceito 
-relevante para o problema que o aplicativo está resolvendo. Os modelos são importantes porque permitem 
+Um modelo é uma representação abstrata de uma entidade. Os modelos são importantes porque permitem 
 a abstração da complexidade, a reutilização de código e a flexibilidade na atualização dos dados. 
+O modelo de Users tem todas essas propriedades definidas dentro dele para representar completamente 
+um usuário no sistema.
 
-No exemplo da entidade Users, o modelo permite que os desenvolvedores trabalhem com a lógica de negócios 
-relacionada aos usuários de forma independente da lógica de apresentação ou da interface do usuário.  
-
-
-2- Descreva o papel dos Serviços em um aplicativo e como eles interagem com os Modelos. 
+### 2- Descreva o papel dos Serviços em um aplicativo e como eles interagem com os Modelos. 
 
 Os serviços são componentes que fornecem funcionalidades específicas em um aplicativo. Eles interagem com 
 os modelos para realizar operações CRUD e outras operações específicas do domínio. O serviço UserManagement 
 interage com o modelo Users para realizar a operação TestUser que seleciona um usuário com um e-mail específico. 
 
 
-3- O que é a CDS Query Language (CQL) e como ela se diferencia do SQL tradicional? 
+#### 3- O que é a CDS Query Language (CQL) e como ela se diferencia do SQL tradicional? 
 
 A CQL é uma linguagem que simplifica e otimiza a manipulação de dados em projetos CAP, oferecendo maior
 flexibilidade e performance em comparação ao SQL tradicional. A CQL é mais próxima das linguagens de 
