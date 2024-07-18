@@ -6,5 +6,5 @@ entity Books : managed {
     key id        : UUID;
         title     : String(100);
         author  : String(100);
-        publishedYear : Integer;
+        publishedYear : Int16;
 }
