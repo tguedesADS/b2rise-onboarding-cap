@@ -4,7 +4,7 @@ import cds, { Request } from "@sap/cds"
 export class BookManagementService extends cds.ApplicationService {
     constructor() {
         super()
-        this.before('READ', 'Books', (request) => this.beforeReadBooks)
+        this.before('READ', 'Books', (request: Request) => this.beforeReadBooks(request))
     }
 
     public async beforeReadBooks(request: Request): Promise<void> {
